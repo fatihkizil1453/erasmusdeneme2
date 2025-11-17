@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hoş geldiniz — Erasmus Projesi</title>
+  <meta name="description" content="Erasmus projesi için örnek ana sayfa.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect width="24" height="24" rx="4" fill="#4F46E5"></rect>
+          <path d="M7 13l3 3 7-10" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="logo-text">Erasmus</span>
+      </a>
+
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="mainNav">Menü</button>
+
+      <nav id="mainNav" class="main-nav" aria-label="Ana navigasyon">
+        <ul>
+          <li><a href="#hero">Ana Sayfa</a></li>
+          <li><a href="#features">Özellikler</a></li>
+          <li><a href="#about">Hakkımızda</a></li>
+          <li><a href="#contact">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1>Yurt dışı deneyimini bir adım öne taşıyın</h1>
+          <p>Erasmus fırsatları, rehberlik ve deneyim paylaşımlarıyla yeni kültürlere açılın. Programları keşfedin ve başvurun.</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#features">Programları İncele</a>
+            <a class="btn" href="#contact">Bize Ulaşın</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='560' height='360'><rect width='100%' height='100%' fill='%234f46e5'/><text x='50%' y='50%' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle'>Erasmus Görsel</text></svg>" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <h2 class="section-title">Neler Sunuyoruz</h2>
+        <p class="section-lead">Eğitim, konaklama ve kültürel etkinliklerle dolu kapsamlı destek.</p>
+        <div class="features-grid">
+          <article class="feature">
+            <h3>Program Rehberliği</h3>
+            <p>Doğru programı seçmenize yardımcı oluyoruz; başvuru sürecinden vize bilgilerine kadar rehberlik sağlanır.</p>
+          </article>
+          <article class="feature">
+            <h3>Konaklama Yardımı</h3>
+            <p>Güvenli ve uygun konaklama seçenekleri sunuyoruz; şehir yaşamına hızlı uyum sağlayın.</p>
+          </article>
+          <article class="feature">
+            <h3>Kültürel Etkinlikler</h3>
+            <p>Yerel etkinliklerle sosyal ağınızı genişletin ve farklı kültürleri deneyimleyin.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container about-inner">
+        <div>
+          <h2>Hakkımızda</h2>
+          <p>Yıllardır öğrencilerin uluslararası deneyim kazanması için çalışan, şeffaf ve güvenilir bir danışmanlık ekibiyiz.</p>
+        </div>
+        <div>
+          <h3>Vizyonumuz</h3>
+          <p>Her öğrencinin dünya ile etkileşime geçebileceği eşit fırsatlar sağlamak.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>İletişim</h2>
+        <p>Sorularınız için formu doldurun veya doğrudan e-posta gönderin.</p>
+        <form id="contactForm" class="contact-form" novalidate>
+          <label>
+            İsim
+            <input type="text" name="name" id="name" required>
+          </label>
+          <label>
+            E-posta
+            <input type="email" name="email" id="email" required>
+          </label>
+          <label>
+            Mesaj
+            <textarea name="message" id="message" rows="4" required></textarea>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Gönder</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Erasmus Danışmanlık — Tüm hakları saklıdır.</p>
+      <p><a href="#">Gizlilik</a> · <a href="#">Kullanım</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
